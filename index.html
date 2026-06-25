@@ -78,6 +78,19 @@
       text-align: right;
     }
 
+    .credit-names {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+    }
+
+    .credit-names span {
+      font-size: 14px;
+      font-weight: 500;
+      color: #e8e8e5;
+    }
+
     .tools-list {
       display: flex;
       flex-wrap: wrap;
@@ -128,7 +141,6 @@
   <div class="credits-wrap">
 
     <h1 class="game-title">Credits</h1>
-   
 
     <p class="section-label">Development</p>
     <div class="credit-row">
@@ -136,11 +148,11 @@
       <span class="credit-name">Conrad Mancha</span>
     </div>
     <div class="credit-row">
-    </div>
-    <div class="credit-row">
       <span class="credit-role">3D Modeling &amp; Assets</span>
-      <span class="credit-name">Conrad Mancha</span>
-       <span class="credit-name">Micheal Ghallager</span>
+      <div class="credit-names">
+        <span>Conrad Mancha</span>
+        <span>Micheal Ghallager</span>
+      </div>
     </div>
     <div class="credit-row">
       <span class="credit-role">UI / UX</span>
@@ -149,7 +161,7 @@
 
     <hr class="divider">
 
-
+    <p class="section-label">Audio</p>
     <div class="credit-row">
       <span class="credit-role">Music</span>
       <span class="credit-name">Conrad Mancha</span>
@@ -157,6 +169,22 @@
     <div class="credit-row">
       <span class="credit-role">Sound effects</span>
       <span class="credit-name">Artist Name</span>
+    </div>
+
+    <hr class="divider">
+
+    <p class="section-label">Porting &amp; Testing</p>
+    <div class="credit-row">
+      <span class="credit-role">Android port</span>
+      <span class="credit-name">Your Name</span>
+    </div>
+    <div class="credit-row">
+      <span class="credit-role">QA &amp; device testing</span>
+      <span class="credit-name">Your Name</span>
+    </div>
+    <div class="credit-row">
+      <span class="credit-role">Beta testers</span>
+      <span class="credit-name">Your Name</span>
     </div>
 
     <hr class="divider">
